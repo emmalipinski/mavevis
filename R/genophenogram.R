@@ -161,10 +161,10 @@ genophenogram <- function(wt.aa, pos, mut.aa, score, syn.med, stop.med,
 	syn.top <- syn.med+(syn.med-stop.med)
 	cm <- colmap(
 		valStops=c(stop.med, neutral.bottom, neutral.top, syn.top), 
-		colStops=c("royalblue3","white","white","firebrick3")
+		colStops=c("mediumorchid4","white","white","green4")
 	)
 	cols <- cm(score)
-	# colRamp <- colorRampPalette(c("royalblue3","white","firebrick3"))(11)
+	# colRamp <- colorRampPalette(c("mediumorchid4","white","green4"))(11)
 	# scoreToColIdx <- function(score) sapply(score,function(s) {
 	# 	if (is.na(s)) {
 	# 		NA
@@ -435,11 +435,11 @@ genophenogram.nc <- function(wt.nc, pos, mut.nc, score, syn.med, stop.med,
 	syn.top <- syn.med+(syn.med-stop.med)
 	cm <- colmap(
 		valStops=c(stop.med, neutral.bottom, neutral.top, syn.top), 
-		colStops=c("royalblue3","white","white","firebrick3")
+		colStops=c("mediumorchid4","white","white","green4")
 	)
 	cols <- cm(score)
 	
-	# colRamp <- colorRampPalette(c("royalblue3","white","firebrick3"))(11)
+	# colRamp <- colorRampPalette(c("mediumorchid4","white","green4"))(11)
 	# scoreToColIdx <- function(score) sapply(score,function(s) {
 	# 	if (is.na(s)) {
 	# 		NA
